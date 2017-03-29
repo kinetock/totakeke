@@ -4,7 +4,8 @@
   "description": "start up (node.js server)",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack"
+    "start": "webpack --optimize-minimize --devtool source-map --watch",
+    "build": "webpack --optimize-minimize --devtool source-map"
   },
   "repository": {
     "type": "git",
