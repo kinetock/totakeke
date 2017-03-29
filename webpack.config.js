@@ -29,11 +29,10 @@ module.exports = [{
             test: /\.(eot|otf|ttf|woff|woff2|svg)(\?.+)?$/,
             use: [
                 {
-                    loader: 'url-loader',
-                    options: {
-                        limit: 8192,
-                        name: './fonts/[name].[ext]'
-                    }
+                  loader: 'file-loader',
+                  options: {
+                      name: './fonts/[name].[ext]'
+                  }
                 }
             ]
         }
