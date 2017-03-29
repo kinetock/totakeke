@@ -1,0 +1,20 @@
+{
+  "name": "totakeke",
+  "version": "1.0.0",
+  "description": "start up (node.js server)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinetock/totakeke.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinetock/totakeke/issues"
+  },
+  "homepage": "https://github.com/kinetock/totakeke#readme"
+}
