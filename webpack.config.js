@@ -7,10 +7,10 @@ module.exports = [{
         path: path.resolve(__dirname, 'public')
     },
     module: {
-    	rules: [{
-    		test: /\.(css|sass|scss)$/,
-    		use: [
-    			'style-loader',
+      	rules: [{
+        		test: /\.(css|sass|scss)$/,
+        		use: [
+          			'style-loader',
                 'css-loader',
                 'sass-loader',
                 {
@@ -23,7 +23,7 @@ module.exports = [{
                         }
                     }
                 }
-    		]
-    	}]
+        		]
+      	}]
     }
 }];
